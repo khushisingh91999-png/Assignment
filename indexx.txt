@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta  charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Khushi Singh</h1>
+        </header>
+        <nav>
+           <u1>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">My Project</a></li>
+            <li><a href="#technical skills">Technical skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </u1> 
+        </nav>
+    <main>
+      <h2>Welcome To My Profile</h2>
+      <P>Hello! I am a web development student. This is my personal portfolio website.</P>
+        <section id="about">
+            <h3>About Me</h3>
+            <img src="photo.jpg" alt="Profile logo" width="100px" height="100px">
+            <p>I am Khushi Singh, a passionate web developer with a knack for creating dynamic and user-friendly websites. I love exploring new technologies and continuously improving my skills.</p> 
+        </section>
+        <section id="projects">
+            <h3>My Projects</h3>
+            <ul>
+                <li><b>Portfolio Website:</b> A personal portfolio website showcasing my bio, projects, skills and contact information.
+                <li><b>Medium Clone:</b> A simple blog layout that looks like medium, built using HTML and CSS.
+                <li><b>Card:</b> A creative card webpage designed with HTML, structure and CSS styling.
+                <li><b>To-Do List App:</b> A simple and intuitive to-do list application to help users manage their tasks effectively.
+                <li><b>User Form:</b> A form webpage with fields like name, email and message for practicing from handling.
+            </ul>
+            </section>
+            <section id="technical skills">
+                <h3>Technical Skills</h3>
+                <table border="5px">
+                    <tr>
+                        <th>Skill</th>
+                        <th>level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>learning</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="contact">
+                <h3>Contact Me</h3>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><Input placeholder="Enter your name"/></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input placeholder="Enter your email"/></td>
+                    </tr>
+                    <tr>
+                        <td>Message:</td>
+                        <td><textarea placeholder="Enter your message"></textarea></td>
+                    </tr>
+                </table>
+            </section>
+    </main>
+    <footer>
+        <footer><button>Send</button></footer>
+    </footer>
+    </body>
+</html>
